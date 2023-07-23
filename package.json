@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "@types/node": "^20.4.2",
+    "playwright": "^1.36.1"
+  },
+  "name": "pw_bdd_pom_sample",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js test"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@cucumber/cucumber": "^9.3.0",
+    "@playwright/test": "^1.36.1",
+    "ts-node": "^10.9.1"
+  }
+}
